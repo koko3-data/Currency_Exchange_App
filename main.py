@@ -42,13 +42,25 @@ new_pln_calculated = int(input("Enter amount in USD: "))
 pln_1 = new_pln_calculated * rate_extracted.get("PLN")
 print(f"Amount in PLN will be : {pln_1}"
       )
-user_input = input("What currency would you like to convert from USD: ")
-if user_input.upper() == {rate_extracted.keys}:
-    print(rate_extracted.keys)
-    currency_exchange = user_input.upper().rate_extracted.value
-    calculated_currency = int(input("Enter amount in USD: "))
-    amount = calculated_currency * currency_exchange
-    print(f"Amount will be : {amount}")
+
+#evloution_2#
+pair_realtime_rates = requests.get("https://v6.exchangerate-api.com/v6/2d3a8f713c3474eb9c072a8f/pair/USD/NGN")
+data_2 = pair_realtime_rates.json()
+print(json.dumps(data_2, indent=7))
+
+exchange_amount = int(input("Enter amount for exchange: "))
+user_input1 = input("Enter first CCY: ")
+user_input2 = input("Enter second CCY: ")
+new_url = (f"https://v6.exchangerate-api.com/v6/2d3a8f713c3474eb9c072a8f/pair/{user_input1}/{user_input2}")
+pair_realtime_rates = requests.get(new_url)
+data_2 = pair_realtime_rates.json()
+print(json.dumps(data_2, indent=7))
+for key, value in data_2.items():
+    data_2 = value
+    print(data_2)
+
+exchange_rate_calculated = exchange_amount * data_2
+print(f"Amount of {user_input1.upper()}/ {user_input2.upper()}  for {exchange_amount} {user_input1.upper()}= {exchange_rate_calculated} {user_input2.upper()}")
 
 
 

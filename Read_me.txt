@@ -10,3 +10,4 @@ We have to get real time data using APIs, for that to work, we need to install r
 
 **evolution2**
 Use paired exchange rates, it saves you from using dictionaries to call keys and variables
+Loop

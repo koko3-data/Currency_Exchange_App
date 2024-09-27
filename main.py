@@ -62,5 +62,25 @@ for key, value in data_2.items():
 exchange_rate_calculated = exchange_amount * data_2
 print(f"Amount of {user_input1.upper()}/ {user_input2.upper()}  for {exchange_amount} {user_input1.upper()}= {exchange_rate_calculated} {user_input2.upper()}")
 
+while True:
+    ask_user = input("Do you wish to make another exchange rate? (y/n): ")
+    if ask_user == "n":
+        break
+    elif ask_user == "y":
+        exchange_amount = int(input("Enter amount for exchange: "))
+        user_input1 = input("Enter first CCY: ")
+        user_input2 = input("Enter second CCY: ")
+        new_url = (f"https://v6.exchangerate-api.com/v6/2d3a8f713c3474eb9c072a8f/pair/{user_input1}/{user_input2}")
+        pair_realtime_rates = requests.get(new_url)
+        data_2 = pair_realtime_rates.json()
+        print(json.dumps(data_2, indent=7))
+        for key, value in data_2.items():
+            data_2 = value
+            print(data_2)
+            exchange_rate_calculated = exchange_amount * data_2
+            print(f"Amount of {user_input1.upper()}/ {user_input2.upper()}  for {exchange_amount} {user_input1.upper()}= {exchange_rate_calculated} {user_input2.upper()}")
+
+
+
 
 

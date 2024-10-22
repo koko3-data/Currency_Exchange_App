@@ -1,0 +1,62 @@
+First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+-----------------------------------------------------------------------------------------------
+First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+-----------------------------------------------------------------------------------------------
+First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+-----------------------------------------------------------------------------------------------
+First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+-----------------------------------------------------------------------------------------------
+First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+-----------------------------------------------------------------------------------------------
+First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+-----------------------------------------------------------------------------------------------
+USD            PLN            3.9929              39929.0                  10000.0             
+First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+-----------------------------------------------------------------------------------------------
+NGN            USD            0.00060475          6.0475                   10000.0             
+First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+-----------------------------------------------------------------------------------------------
+PLN            EUR            0.2295              4590.0                   20000.0             
+First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+-----------------------------------------------------------------------------------------------
+USD            PLN            3.9929              359361.0                 90000.0             
+First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+-----------------------------------------------------------------------------------------------
+PLN            EUR            0.2295              30000.0                  6885.0              
+First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+-----------------------------------------------------------------------------------------------
+CHF            PLN            4.6268              80000.0                  370144.0            
+First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+-----------------------------------------------------------------------------------------------
+EUR            PLN            4.357               10000.0                  43570.0             
+Timestamp                First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+------------------------------------------------------------------------------------------------------------------------
+Timestamp                First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+------------------------------------------------------------------------------------------------------------------------
+2024-11-06 22:10:27      USD            EUR            0.9163              91630.0                  100000.0            
+Timestamp                First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+------------------------------------------------------------------------------------------------------------------------
+2024-11-06 22:11:05      EUR            PLN            4.357               522840.0                 120000.0            
+Timestamp                First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+------------------------------------------------------------------------------------------------------------------------
+2024-11-06 22:12:10      CHF            USD            1.1587              69522.0                  60000.0             
+Timestamp                First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+------------------------------------------------------------------------------------------------------------------------
+2024-11-06 22:13:08      CHF            USD            1.1587              695220.0                 600000.0            
+Timestamp                First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+------------------------------------------------------------------------------------------------------------------------
+2024-11-06 22:18:31      USD            EUR            0.9163              18326.0                  20000.0             
+Timestamp                First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+------------------------------------------------------------------------------------------------------------------------
+2024-11-06 22:20:35      USD            EUR            0.9163              200000.0                 183260.0            
+2024-11-06 22:20:35,USD,EUR,0.9163,200000.0,183260.0
+Timestamp                First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+------------------------------------------------------------------------------------------------------------------------
+2024-11-06 22:22:39      USD            EUR            0.9163              20000.0                  18326.0             
+Timestamp                First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+------------------------------------------------------------------------------------------------------------------------
+2024-11-06 22:24:30      USD            PLN            3.9929              20000.0                  79858.0             
+Timestamp                First Currency Second CurrencyConversion Rate     Currency Amount          Calculated Amount   
+------------------------------------------------------------------------------------------------------------------------
+2024-11-07 12:29:21      USD            EUR            0.9316              1000.0                   931.6               
+2024-11-07 12:29:21,USD,EUR,0.9316,1000.0,931.6

@@ -5,6 +5,10 @@ import datetime
 import csv
 import json
 import unittest
+import pandas as pd
+import matplotlib as plt
+import seaborn as sns
+
 from unittest.mock import patch, mock_open
 
 
@@ -81,8 +85,8 @@ if __name__ == "__main__":
                 formatted_result = print_result(first_ccy,second_ccy,currency_amount,exchange_amount)
                 print(formatted_result)
 
-                save_result_to_file(filename,first_ccy, second_ccy, exchange_rates, currency_amount,exchange_amount)
-                save_result_to_file_csv(filename, first_ccy, second_ccy, exchange_rates, currency_amount, exchange_amount)
+                save_result_to_file(filename,first_ccy, second_ccy, exchange_rates, currency_amount, exchange_amount)
+                save_result_to_file_csv(filename_csv, first_ccy, second_ccy, exchange_rates, currency_amount, exchange_amount)
 
 
         except ValueError as e:
@@ -107,12 +111,21 @@ class TestCurrencyExchange(unittest.TestCase):
         second_ccy = get_user_input_2()
         self.assertEqual(second_ccy, "EUR")
 
-    def test_get_exchange_rates(self):
-        get_exchange_rates()
-        url = f"https://v6.exchangerate-api.com/v6/2d3a8f713c3474eb9c072a8f/pair/{first_ccy}/{second_ccy}"
-        response = requests.get(url)
-        data = response.json()
-        return data.get("conversion_rate")
+    # def test_get_exchange_rates(self):
+    #     get_exchange_rates =
+    #     url = f"https://v6.exchangerate-api.com/v6/2d3a8f713c3474eb9c072a8f/pair/{first_ccy}/{second_ccy}"
+    #     response = requests.get(url)
+    #     data = response.json()
+    #     return data.get("conversion_rate")
+    #
 
+#import csv file from computer for plotting
+file_path = '/Users/omololaowonikoko/Documents/Currencies_Exchange_results_manual.csv'
+data = pd.read_csv('/Users/omololaowonikoko/Documents/Currencies_Exchange_results_manual.csv')
+print(data.head())
 
+data['Timestamp'] = pd.to_datetime(data['Timestamp'])
+data.sort_values(by='Timestamp', inplace=True)
+
+print(data.head())
 
